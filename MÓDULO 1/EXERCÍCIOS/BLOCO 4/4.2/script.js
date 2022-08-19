@@ -1,4 +1,4 @@
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+// let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
 // console.log(numbers);
 
@@ -21,18 +21,18 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
 // console.log(sum);
 
-// let maior = 0;
-// // let numbers = [2, 3, 5];
+let maior = 0;
+let numbers = [2, 3, 5];
 
-// for (let i = 0; i < numbers.length; i += 1) {
-//     // console.log('esse é o número maior', maior);
-//     if (maior < numbers[i]) {
-//         maior = numbers[i];
-//         // console.log(maior);
-//     }
-// }
+for (let i = 0; i < numbers.length; i += 1) {
+    console.log('esse é o número maior', maior);
+    if (maior < numbers[i]) {
+        maior = numbers[i];
+        console.log(maior);
+    }
+}
 
-// console.log(maior);
+console.log(maior);
 
 // let resulta = 0;
 
