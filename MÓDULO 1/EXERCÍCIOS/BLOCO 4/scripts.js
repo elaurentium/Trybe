@@ -74,3 +74,30 @@ if (custo >= 0 && venda >= 0) {
 } else {
     console.log('erro');
 }
+
+let inss;
+let ir;
+
+const salario = 1500.10;
+
+if (salario <= 1556.94) {
+    inss = salario * 0.08;
+} else if (salario <= 2594.42) {
+    inss = salario * 0.09;
+} else if (salario <= 5189.82) {
+    inss = salario * 0.11;
+} else {
+    inss = 570.88;
+}
+
+if (salario == 1903.98) {
+    ir = 0;
+} else if (salario <= 2826.65) {
+    ir = salario * 0.075 - 142.80;
+} else if (salario <= 3751.05) {
+    ir = salario * 0.15 - 354.80;
+} else if (salario <= 4664.68) {
+    ir = salario * 0.0225 - 636.13;
+} else {
+    ir = salario * 0.0275 - 869.36;
+}
