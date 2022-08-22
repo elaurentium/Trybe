@@ -77,15 +77,15 @@
 //     } 
 // }
 
-let player = 'tesoura';
-let player1 = 'pedra';
+// let player = 'tesoura';
+// let player1 = 'pedra';
 
-let jogo = 'pedra' > 'tesoura' || 'tesoura' > 'papel' || 'papel' > 'pedra';
+// let jogo = 'pedra' > 'tesoura' || 'tesoura' > 'papel' || 'papel' > 'pedra';
 
-if (player > player1) {
-    console.log('player 1 won');
-} else if (player1 > player) {
-    console.log('player 2 won')
-} else if (player === player1) {
-    console.log('empate');
-}
+// if (player > player1) {
+//     console.log('player 1 won');
+// } else if (player1 > player) {
+//     console.log('player 2 won')
+// } else if (player === player1) {
+//     console.log('empate');
+// }
