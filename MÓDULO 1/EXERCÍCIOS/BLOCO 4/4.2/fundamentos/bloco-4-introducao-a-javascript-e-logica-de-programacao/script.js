@@ -22,13 +22,13 @@
 // let menor = array[0];
 
 // for (let index = 0; index < array.length; index += 1) {
-//     if(array[index] > maior) {
+//     if(array[index].length > maior.length) {
 //         maior = array[index];  
 //     }
 // }
 
 // for (let index = 0; index < array.length; index += 1) {
-//     if(array[index] < menor) {
+//     if(array[index].length < menor.length) {
 //         menor = array[index];
 //     }
 // }
