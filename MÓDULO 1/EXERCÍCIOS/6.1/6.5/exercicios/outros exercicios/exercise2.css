@@ -1,0 +1,28 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+@media screen and (max-width: 320px) {
+    body {
+        text-align: center;
+        font-size: medium;
+    }
+}
+
+@media screen and (min-width:321px) and (max-width:768px) {
+    body {
+        text-align: left;
+        font-size: medium;
+    }
+}
+
+@media screen and (min-width:769px) {
+    body {
+        text-align: inherit;
+        font-size: larger;
+    }
+}
